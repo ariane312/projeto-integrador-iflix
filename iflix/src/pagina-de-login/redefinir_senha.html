@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redefinir Senha</title>
+  <style>
+    body{
+      appearance: Arial, Helvetica, sans-serif;
+      background-image: url("img/Desktop - 1.jpg");
+    }   
+    .box{
+      position: absolute;
+      top: 43%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(alpha, alpha, alpha, alpha);
+      border-radius: 10px;
+      padding: 15px;
+    }
+    .inputBox{
+      position: relative;
+    } 
+    .inputUser{
+      background: white;
+      border: none;
+      padding: 13px;
+      border-radius: 10px;
+      outline: none;
+      width: 90%;
+    }
+    .submit{
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 18%;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+    }
+    .retornar{
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 12%;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+      position: absolute;
+      top: 78%;
+      left: 75%;
+    }
+  </style>
+</head>
+  
+<body>
+  <div class="box">
+    <form action="">
+    <a class="text"><h1><b>Redefinir Senha</b></h1></a>
+    <a class="text">Preencha os dados abaixo para redefinição de senha de acesso</a>
+    <br><br>
+    <div class="inputBox">
+       <input type="password" name="password" class="inputUser" placeholder="Nova senha" required>
+  </div>
+    <br>
+    <div class="inputBox">
+       <input type="password" name="password" class="inputUser" placeholder="Confirme a nova senha" required>
+  </div>
+  <br><br>
+    <div class="submit">
+    <button><a href="index.html">Continuar</a> </button>
+          </div>
+      <br>
+        <div class="retornar">
+    <button><a href="recuperar_senha.html">Voltar</a> </button>
+      </form>
+  </div>
+</body>
+
+</html>

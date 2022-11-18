@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+    <style>
+    body{
+      appearance: Arial, Helvetica, sans-serif;
+      background-image: url("img/Desktop - 1.jpg");
+    }   
+    .box{
+      position: absolute;
+      top: 43%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(alpha, alpha, alpha, alpha);
+      border-radius: 10px;
+      padding: 15px;
+      width: 20%;
+    }
+    .inputBox{
+      position: relative;
+    } 
+    .inputUser{
+      background: white;
+      border: none;
+      padding: 13px;
+      border-radius: 10px;
+      outline: none;
+      width: 100%;
+    }
+    .botao{
+      border: none;
+      padding: 10px;
+      width: 4%;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+      position: absolute;
+      top: 60%;
+      left: 18%;
+    }
+    .recuperar{
+      position: absolute;
+      top: 90%;
+      left: 66%;
+    }
+    .lembrar{
+      position: absolute;
+      top: 53%;
+      left: 10%;
+    }
+  </style>
+</head>
+  
+<body>
+  <div class="box">
+    <form action="">
+      <a class="text">Não tem uma conta?</a>
+      <a href="cadastro_usuario.html" class="forget">Cadastre-se aqui.</a>
+      <br><br>
+      <div class="inputBox">
+        <input type="email" name="email" class="inputUser" placeholder="Email" required>
+      </div>
+      <br>
+      <div class="inputBox">
+        <input type="password" name="password" class="inputUser" placeholder="Senha" required>
+      </div>
+      <br>
+      <div class="recuperar">
+        <a href="recuperar_senha.html" class="forget">Recuperar senha</a>
+        <br><br>
+      </div>
+      </div>
+      <div class="lembrar">
+       <input type="radio" id="lembrar" name="lembrar" value="lembrar" required>
+        <label for="lembrar">Lembrar login</label>
+      </div>
+      <div class="botao">
+        <button><a href="entrando_playlist.html">Entrar</a> </button>
+      </div>
+  </div>
+</body>
+
+</html>

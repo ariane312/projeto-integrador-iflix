@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Recuração de Senha</title>
+  <style>
+    body{
+      appearance: Arial, Helvetica, sans-serif;
+      background-image: url("img/Desktop - 1.jpg");
+    }   
+    .box{
+      position: absolute;
+      top: 43%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(alpha, alpha, alpha, alpha);
+      border-radius: 10px;
+      padding: 15px;
+    }
+    .inputBox{
+      position: relative;
+    } 
+    .inputUser{
+      background: white;
+      border: none;
+      padding: 13px;
+      border-radius: 10px;
+      outline: none;
+      width: 93%;
+    }
+    .submit{
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 21%;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+    }
+    .retornar{  
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 13%;
+      border-radius: 10px;
+      outline: none;
+      cursor: pointer;
+      position: absolute;
+      top: 75%;
+      left: 78%;
+    }
+  </style>
+</head>
+  
+<body>
+  <div class="box">
+    <form action="">
+    <a class="text"><h1><b>Recuperar senha</b></h1></a>
+    <a class="text">Para recuperar a senha, informe o seu email de acesso</a>
+      <br>
+    <a class="text">que enviaremos um código para alteração de senha</a>
+    <br><br>
+    <div class="inputBox">
+       <input type="email" name="email" class="inputUser" placeholder="Email" required>
+  </div>
+  <br><br>
+        <div class="submit">
+    <button><a href="codigo_recuperacao.html">Continuar</a> </button>
+          </div>
+      <br>
+        <div class="retornar">
+    <button><a href="index.html">Voltar</a> </button>
+        </div>
+      </form>
+  </div>
+</body>
+
+</html>
